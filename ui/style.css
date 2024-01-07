@@ -1,0 +1,10 @@
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+.wrapper{
+    padding-block:1.5rem;
+    width: min(95%, 70rem);
+    margin-inline: auto;
+}
