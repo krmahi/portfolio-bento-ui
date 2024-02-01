@@ -1,0 +1,13 @@
+.skill-bento {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-block: 7.5rem;
+  padding-bottom: 3.5rem;
+}
+
+.skill-bento > img {
+  width: 110%;
+  height: 100%;
+  object-fit: cover;
+}
