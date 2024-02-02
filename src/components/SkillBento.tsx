@@ -1,6 +1,6 @@
 // import React from "react";
 import "../styles/SkillBento.css";
-import skillbento from "../assets/skillbento.svg";
+import skillbento from "../assets/Skillbento.svg";
 function SkillBento() {
   return (
     <div className="skill-bento">
