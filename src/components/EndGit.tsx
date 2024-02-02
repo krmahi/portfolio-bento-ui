@@ -1,5 +1,5 @@
 // import React from "react";
-import "../Styles/EndGit.css";
+import "../styles/EndGit.css";
 
 function EndGit() {
   return (

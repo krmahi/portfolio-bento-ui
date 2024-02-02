@@ -1,5 +1,5 @@
 // import React from "react";
-import "../Styles/Certification.css";
+import "../styles/Certification.css";
 import codingninja from "../assets/codingninja-logo.svg";
 import googlelogo from "../assets/google-logo.svg";
 import microsoftlogo from "../assets/microsoft-logo.svg";

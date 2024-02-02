@@ -1,5 +1,5 @@
 // import React from "react";
-import "../Styles/Competitions.css";
+import "../styles/Competitions.css";
 
 function Competitions() {
   return (

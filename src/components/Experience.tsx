@@ -1,5 +1,5 @@
 // import React from "react";
-import "../Styles/Experience.css";
+import "../styles/Experience.css";
 import googlecloud from "../assets/googlecloud-logo.svg";
 import socialscript from "../assets/socialscript.svg";
 import devtown from "../assets/devtown.svg";
