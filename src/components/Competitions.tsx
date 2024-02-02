@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import "../Styles/Competitions.css";
 
 function Competitions() {

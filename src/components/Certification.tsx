@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import "../Styles/Certification.css";
 import codingninja from "../assets/codingninja-logo.svg";
 import googlelogo from "../assets/google-logo.svg";

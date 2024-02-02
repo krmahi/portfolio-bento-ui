@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import "../styles/SkillBento.css";
 import skillbento from "../assets/skillbento.svg";
 function SkillBento() {
