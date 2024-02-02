@@ -1,0 +1,59 @@
+:root {
+  --end-line-height: 3.1rem;
+}
+
+.end-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-block: 5rem;
+  font-size: 35px;
+  line-height: var(--end-line-height);
+  font-weight: 700;
+}
+
+.end-heading {
+  display: flex;
+  gap: 0.9rem;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.end-heading2 {
+  margin-inline: 2rem;
+}
+
+.end-content {
+  display: flex;
+
+  text-align: left;
+  margin-block: 1.5rem;
+  font-size: 16px;
+  font-weight: 445;
+  line-height: 1.5rem;
+}
+
+.end-div .contact-button {
+  margin-inline: auto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+
+.end-h2 {
+  background-image: url("../assets/GradientName.png");
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  pointer-events: none;
+  background-size: 130% 110%;
+  background-repeat: repeat;
+  background-blend-mode: color-burn;
+  animation: gradient 14s ease infinite;
+}
+.end {
+  display: flex;
+  flex-direction: column;
+}
