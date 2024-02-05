@@ -39,8 +39,17 @@ body {
   flex-direction: column;
 }
 
+.in-about {
+  display: flex;
+  flex-direction: column;
+}
+
 /* tablet */
 @media (min-width: 430px) and (max-width: 1024px) {
+  .header {
+    padding: 0rem 3.5%;
+  }
+
   .wrapper {
     width: min(100% - 3rem, 680px);
   }
@@ -149,9 +158,96 @@ body {
 
 /* tablet-end */
 
-/* desktop */
-/* @media (min-width: 1420px) {
+/* laptop */
+@media (min-width: 1024px) {
   .header {
-    padding: 0rem 12%;
+    padding: 0rem 5%;
   }
-} */
+  .wrapper {
+    width: min(100% - 20rem, 1420px);
+  }
+
+  /* laptop */
+
+  /* desktop */
+  @media (min-width: 1024px) {
+    .header {
+      padding: 0rem 12%;
+    }
+    .wrapper {
+      width: min(100% - 3rem, 1420px);
+    }
+  
+  .after-header {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-block-start: 11rem;
+    
+  }
+  .in-about {
+    display: inline-block;
+    text-align: left;
+    width: 649px;
+    
+  }
+  .skill-bento {
+    width: min(100%, 615px);
+    height: 100%;
+    margin-block-start:-2.5rem ;
+    margin-inline-end: -2.5rem;
+    padding: 0rem !important;
+  }
+  .about-name {
+    font-size: 100px !important;
+    text-align: left !important;
+  }
+  .about {
+    font-size: 17px !important;
+    text-align: left !important;
+  }
+  .about-roles > p > span {
+    font-size: 15px !important;
+    padding-inline: 0.4rem !important;
+  }
+  .about-roles svg {
+    width: 5px !important;
+    height: 10px !important;
+  }
+  .about-buttons {
+    flex-direction: row !important;
+    gap: 1rem;
+    padding-block-start: 3rem;
+    text-align: center;
+    justify-content: center;
+  }
+  .title {
+    font-size: 35px !important;
+  }
+  .block-title {
+    font-size: 17.8px !important;
+  }
+  .block-sub-title {
+    font-size: 16.8px !important;
+  }
+  .block-1 span {
+    font-size: 13.8px !important;
+  }
+  .badge-1 {
+    height: 65px;
+    border-radius: 15px;
+    transition: transform 0.2s ease-in-out;
+  }
+
+  #cert-compi-title {
+    line-height: 2rem;
+  }
+  .achi-sub-content {
+    margin-left: 1rem !important;
+    margin-block: 10px;
+  }
+  .achi-sub-content span {
+    font-size: 1.1rem !important;
+  }
+}
+
+/* desktop-end */

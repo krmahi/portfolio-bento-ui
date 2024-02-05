@@ -25,8 +25,10 @@ function App() {
       <div className="wrapper">
         <div className="after-header">
           <SkillBento />
-          <GradientName />
-          <About />
+          <div className="in-about">
+            <GradientName />
+            <About />
+          </div>
         </div>
         <Experience />
         <Projects />
