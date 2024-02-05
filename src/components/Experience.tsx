@@ -8,11 +8,11 @@ function Experience() {
   return (
     <div className="experience-hero">
       <div className="title">Work Experience</div>
-      <div className="work-blocks">
-        <div className="block-1 block-color">
+      <div className="work-blocks ">
+        <div className="block-1 block-color work-col-span-desktop">
           <div className="block-title">Google Cloud</div>
           <div className="block-sub-title">cloud arcade facilitator</div>
-          <div className="block-content">
+          <div className="block-content line-height-content">
             <span>
               25% improvement in decision-making with actionable insights
               derived from BigQuery analysis
@@ -28,10 +28,10 @@ function Experience() {
           </div>
         </div>
 
-        <div className="block-1 block-color">
+        <div className="block-1 block-color work-col-span-desktop">
           <div className="block-title">Social (Script foun.)</div>
           <div className="block-sub-title">social summer of code season 2</div>
-          <div className="block-content">
+          <div className="block-content line-height-content">
             <span>
               Actively contributed to the development of an open-source project
               during SSOC
@@ -49,7 +49,7 @@ function Experience() {
         <div className="block-1 block-color end-block">
           <div className="block-title">DevTown</div>
           <div className="block-sub-title">campus ambassador</div>
-          <div className="block-content">
+          <div className="block-content line-height-content-3">
             <span>
               Elevated awareness of DevTown by engaging fellow students,
               resulting in a 25% increase in organizational visibility on campus
