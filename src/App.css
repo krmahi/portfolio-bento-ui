@@ -200,12 +200,16 @@ body {
       text-align: left !important;
     }
     .about {
-      font-size: 17px !important;
+      margin-block-start: -1rem !important;
+      font-size: 20px !important;
       text-align: left !important;
+      line-height: 170% !important;
+      font-weight: 400 !important;
     }
     .about-roles > p > span {
-      font-size: 15px !important;
+      font-size: 20px !important;
       padding-inline: 0.4rem !important;
+      font-weight: 500 !important;
     }
     .about-roles svg {
       width: 5px !important;
@@ -213,22 +217,69 @@ body {
     }
     .about-buttons {
       flex-direction: row !important;
-      gap: 1rem;
-      padding-block-start: 3rem;
-      text-align: center;
-      justify-content: center;
+      gap: 1.5rem !important;
+      text-align: left !important;
+      justify-content: left !important;
+      margin-block-end: 2rem !important;
     }
+    .button {
+      padding: 1em 4em !important;
+
+      font-size: 17px !important;
+    }
+
+    .contact-button {
+      font-size: 17px;
+    }
+
+    .about-scroll > svg {
+      width: 210px; /* Change the width value to your desired size */
+      height: 50px; /* Change the height value to your desired size */
+    }
+
     .title {
-      font-size: 35px !important;
+      font-size: 50px !important;
+      margin-block-start: 10rem !important;
+      margin-block-end: 4rem !important;
+    }
+
+    .work-blocks {
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1rem;
+    }
+    .work-badges {
+      grid-template-columns: repeat(4, 1fr) !important;
+      grid-column-start: 3;
+    }
+    .work-col-span-desktop {
+      grid-row: span 2 !important;
+    }
+    #grey-block {
+      display: grid !important;
+      text-align: right;
+      padding-right: 1rem;
+      padding-left: 1rem;
+      border-radius: 15px;
+      line-height: 110% !important;
+    }
+    #grey-block > p {
+      font-size: 0.8rem !important;
     }
     .block-title {
-      font-size: 17.8px !important;
+      font-size: 21px !important;
     }
     .block-sub-title {
-      font-size: 16.8px !important;
+      font-size: 18px !important;
     }
     .block-1 span {
-      font-size: 13.8px !important;
+      font-size: 17px !important;
+    }
+
+    .line-height-content {
+      line-height: 1.8rem !important;
+    }
+    .line-height-content-3 {
+      line-height: 1.5rem !important;
     }
     .badge-1 {
       height: 65px;
