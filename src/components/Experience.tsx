@@ -46,7 +46,7 @@ function Experience() {
             </span>
           </div>
         </div>
-        <div className="block-1 block-color end-block">
+        <div className="block-1 block-color end-block work-col-span-laptop">
           <div className="block-title">DevTown</div>
           <div className="block-sub-title">campus ambassador</div>
           <div className="block-content line-height-content-3">

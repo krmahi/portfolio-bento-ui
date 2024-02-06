@@ -13,7 +13,7 @@
   background-repeat: repeat;
   background-blend-mode: color-burn;
   animation: gradient 14s ease infinite;
-  margin-block: -1.5rem;
+  /* margin-block: -1.5rem; */
 }
 
 @keyframes gradient {
