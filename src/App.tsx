@@ -14,7 +14,7 @@ import { BrowserRouter as Router } from "react-router-dom";
 function App() {
   return (
     <>
-      {/* <div className="header"> */}
+      {/* <div className="wrapper"> */}
       <Router>
         <Header />
         {/* <Routes>

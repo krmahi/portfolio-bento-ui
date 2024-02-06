@@ -45,11 +45,10 @@ body {
 }
 
 /* tablet */
-@media (min-width: 430px) and (max-width: 1024px) {
+@media (min-width: 430px) {
   .header {
-    padding: 0rem 3.5%;
+    padding: 0.9rem 7% !important;
   }
-
   .wrapper {
     width: min(100% - 3rem, 680px);
   }
@@ -159,145 +158,267 @@ body {
 /* tablet-end */
 
 /* laptop */
-@media (min-width: 1024px) {
-  .header {
-    padding: 0rem 5%;
-  }
+@media (min-width: 1024px) and (max-width: 1500px) {
   .wrapper {
     width: min(100% - 20rem, 1420px);
   }
+  .after-header {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    width: 100%;
+    margin-block-start: 11rem;
+  }
+  .in-about {
+    text-align: left;
+  }
+  .skill-bento {
+    width: min(100%, 550px);
+    height: 100%;
 
-  /* laptop */
+    margin-block: auto;
+    margin-inline-end: -2.5rem;
+    padding: 0rem !important;
+  }
+  .about-name {
+    font-size: 100px !important;
+    text-align: left !important;
+  }
+  .about {
+    margin-block-start: -1rem !important;
+    font-size: 17px !important;
+    text-align: left !important;
+    line-height: 170% !important;
+    font-weight: 400 !important;
+  }
+  .about > p {
+    max-width: 500px;
+  }
+  .about-roles > p > span {
+    font-size: 17px !important;
+    padding-inline: 0.4rem !important;
+    font-weight: 500 !important;
+  }
+  .about-roles svg {
+    width: 5px !important;
+    height: 10px !important;
+  }
+  .about-buttons {
+    flex-direction: row !important;
+    gap: 1.5rem !important;
+    text-align: left !important;
+    justify-content: left !important;
+    margin-block-end: 2rem !important;
+  }
+  .button {
+    padding: 1em 4em !important;
 
-  /* desktop */
-  @media (min-width: 1024px) {
-    .header {
-      padding: 0rem 12%;
-    }
-    .wrapper {
-      width: min(100% - 3rem, 1420px);
-    }
-
-    .after-header {
-      flex-direction: row-reverse;
-      justify-content: space-between;
-      margin-block-start: 11rem;
-    }
-    .in-about {
-      display: inline-block;
-      text-align: left;
-      width: 649px;
-    }
-    .skill-bento {
-      width: min(100%, 615px);
-      height: 100%;
-      margin-block-start: -2.5rem;
-      margin-inline-end: -2.5rem;
-      padding: 0rem !important;
-    }
-    .about-name {
-      font-size: 100px !important;
-      text-align: left !important;
-    }
-    .about {
-      margin-block-start: -1rem !important;
-      font-size: 20px !important;
-      text-align: left !important;
-      line-height: 170% !important;
-      font-weight: 400 !important;
-    }
-    .about-roles > p > span {
-      font-size: 20px !important;
-      padding-inline: 0.4rem !important;
-      font-weight: 500 !important;
-    }
-    .about-roles svg {
-      width: 5px !important;
-      height: 10px !important;
-    }
-    .about-buttons {
-      flex-direction: row !important;
-      gap: 1.5rem !important;
-      text-align: left !important;
-      justify-content: left !important;
-      margin-block-end: 2rem !important;
-    }
-    .button {
-      padding: 1em 4em !important;
-
-      font-size: 17px !important;
-    }
-
-    .contact-button {
-      font-size: 17px;
-    }
-
-    .about-scroll > svg {
-      width: 210px; /* Change the width value to your desired size */
-      height: 50px; /* Change the height value to your desired size */
-    }
-
-    .title {
-      font-size: 50px !important;
-      margin-block-start: 10rem !important;
-      margin-block-end: 4rem !important;
-    }
-
-    .work-blocks {
-      grid-template-columns: repeat(3, 1fr);
-      gap: 1rem;
-    }
-    .work-badges {
-      grid-template-columns: repeat(4, 1fr) !important;
-      grid-column-start: 3;
-    }
-    .work-col-span-desktop {
-      grid-row: span 2 !important;
-    }
-    #grey-block {
-      display: grid !important;
-      text-align: right;
-      padding-right: 1rem;
-      padding-left: 1rem;
-      border-radius: 15px;
-      line-height: 110% !important;
-    }
-    #grey-block > p {
-      font-size: 0.8rem !important;
-    }
-    .block-title {
-      font-size: 21px !important;
-    }
-    .block-sub-title {
-      font-size: 18px !important;
-    }
-    .block-1 span {
-      font-size: 17px !important;
-    }
-
-    .line-height-content {
-      line-height: 1.8rem !important;
-    }
-    .line-height-content-3 {
-      line-height: 1.5rem !important;
-    }
-    .badge-1 {
-      height: 65px;
-      border-radius: 15px;
-      transition: transform 0.2s ease-in-out;
-    }
-
-    #cert-compi-title {
-      line-height: 2rem;
-    }
-    .achi-sub-content {
-      margin-left: 1rem !important;
-      margin-block: 10px;
-    }
-    .achi-sub-content span {
-      font-size: 1.1rem !important;
-    }
+    font-size: 17px !important;
   }
 
-  /* desktop-end */
+  .contact-button {
+    font-size: 17px;
+  }
+
+  .about-scroll > svg {
+    width: 210px;
+    height: 50px;
+  }
+
+  .title {
+    font-size: 50px !important;
+    margin-block-start: 10rem !important;
+    margin-block-end: 4rem !important;
+  }
+
+  .work-blocks {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 1rem;
+  }
+  .work-badges {
+    grid-template-columns: repeat(4, 1fr) !important;
+    grid-column-start: 2;
+    grid-row-end: 3;
+  }
+  .work-col-span-laptop {
+    grid-row: span 2 !important;
+  }
+
+  #grey-block {
+    display: grid !important;
+    text-align: right;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    border-radius: 15px;
+    line-height: 110% !important;
+  }
+  #grey-block > p {
+    font-size: 0.8rem !important;
+  }
+  .block-title {
+    font-size: 21px !important;
+  }
+  .block-sub-title {
+    font-size: 18px !important;
+  }
+  .block-1 span {
+    font-size: 17px !important;
+  }
+
+  .line-height-content {
+    line-height: 1.8rem !important;
+  }
+  .line-height-content-3 {
+    line-height: 1.5rem !important;
+  }
+  .badge-1 {
+    height: 65px;
+    border-radius: 15px;
+    transition: transform 0.2s ease-in-out;
+  }
+
+  #cert-compi-title {
+    line-height: 2rem;
+  }
+  .achi-sub-content {
+    margin-left: 1rem !important;
+    margin-block: 10px;
+  }
+  .achi-sub-content span {
+    font-size: 1.1rem !important;
+  }
 }
+/* laptop-end */
+
+/* desktop */
+@media (min-width: 1500px) {
+  .wrapper {
+    width: min(100% - 20rem, 1420px);
+  }
+  .header {
+    padding: 0.9rem 12.9% !important;
+  }
+  .after-header {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    width: 100%;
+    margin-block-start: 11rem;
+  }
+  .in-about {
+    text-align: left;
+  }
+  .skill-bento {
+    width: min(100%, 550px);
+    height: 100%;
+
+    margin-block: auto;
+    margin-inline-end: -2.5rem;
+    padding: 0rem !important;
+  }
+  .about-name {
+    font-size: 100px !important;
+    text-align: left !important;
+  }
+  .about {
+    margin-block-start: -1rem !important;
+    font-size: 17px !important;
+    text-align: left !important;
+    line-height: 170% !important;
+    font-weight: 400 !important;
+  }
+  .about > p {
+    max-width: 500px;
+  }
+  .about-roles > p > span {
+    font-size: 17px !important;
+    padding-inline: 0.4rem !important;
+    font-weight: 500 !important;
+  }
+  .about-roles svg {
+    width: 5px !important;
+    height: 10px !important;
+  }
+  .about-buttons {
+    flex-direction: row !important;
+    gap: 1.5rem !important;
+    text-align: left !important;
+    justify-content: left !important;
+    margin-block-end: 2rem !important;
+  }
+  .button {
+    padding: 1em 4em !important;
+
+    font-size: 17px !important;
+  }
+
+  .contact-button {
+    font-size: 17px;
+  }
+
+  .about-scroll > svg {
+    width: 210px;
+    height: 50px;
+  }
+
+  .title {
+    font-size: 50px !important;
+    margin-block-start: 10rem !important;
+    margin-block-end: 4rem !important;
+  }
+
+  .work-blocks {
+    grid-template-columns: repeat(3, 1fr) !important;
+    gap: 1rem;
+  }
+  .work-badges {
+    grid-template-columns: repeat(4, 1fr) !important;
+    grid-column-start: 3;
+  }
+  .work-col-span-desktop {
+    grid-row: span 2 !important;
+  }
+  #grey-block {
+    display: grid !important;
+    text-align: right;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    border-radius: 15px;
+    line-height: 110% !important;
+  }
+  #grey-block > p {
+    font-size: 0.8rem !important;
+  }
+  .block-title {
+    font-size: 21px !important;
+  }
+  .block-sub-title {
+    font-size: 18px !important;
+  }
+  .block-1 span {
+    font-size: 17px !important;
+  }
+
+  .line-height-content {
+    line-height: 1.8rem !important;
+  }
+  .line-height-content-3 {
+    line-height: 1.5rem !important;
+  }
+  .badge-1 {
+    height: 65px;
+    border-radius: 15px;
+    transition: transform 0.2s ease-in-out;
+  }
+
+  #cert-compi-title {
+    line-height: 2rem;
+  }
+  .achi-sub-content {
+    margin-left: 1rem !important;
+    margin-block: 10px;
+  }
+  .achi-sub-content span {
+    font-size: 1.1rem !important;
+  }
+}
+
+/* desktop-end */
