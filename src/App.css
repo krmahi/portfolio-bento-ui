@@ -3,6 +3,9 @@
   box-sizing: border-box;
 }
 
+::selection {
+  color: #048f7a;
+}
 :root {
   font-family: "Poppins", sans-serif;
   --color-bg: #fdedfb;
