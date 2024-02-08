@@ -1,19 +1,20 @@
 // import React from "react";
 import "../styles/Projects.css";
+import voicegenix from "../assets/voicegenix.svg";
 
 function Projects() {
   return (
     <div className="project-hero">
-      <div className="title">Projects</div>
       <div className="project-blocks">
-        <div className="block-1 project-block-color-1">
-          <div className="block-title bold">
+        <div className="title p-title">Projects</div>
+        <div className="block-1 project-block-color-1 a">
+          <div className="block-title bold block-title-proj">
             Autonomous vehicle localization and navigation
           </div>
-          <div className="block-sub-title bold-subheading size-15px">
+          <div className="block-sub-title bold-subheading size-15px block-sub-title-proj">
             AD Level 5
           </div>
-          <div className="size-15px bold-content">
+          <div className="size-15px bold-content ">
             <span>
               Led dynamic simulation scenario creation with Lidar, INS, and
               camera sensors in Unreal Engine, achieving Level 5 autonomy, and
@@ -30,9 +31,11 @@ function Projects() {
             <span>Point Cloud</span>
           </div>
         </div>
-        <div className="block-1 project-block-color-2">
-          <div className="block-title bold">Personal Portfolio</div>
-          <div className="block-sub-title bold-subheading size-15px">
+        <div className="block-1 project-block-color-2 b">
+          <div className="block-title bold block-title-proj">
+            Personal Portfolio
+          </div>
+          <div className="block-sub-title bold-subheading size-15px block-sub-title-proj">
             Bento-ui style | portfolio website
           </div>
           <div className="size-15px bold-content">
@@ -62,9 +65,11 @@ function Projects() {
             <span>Sass / Scss</span>
           </div>
         </div>
-        <div className="block-1 project-block-color-3 white-text">
-          <div className="block-title bold">2D Ray tracing</div>
-          <div className="block-sub-title bold-subheading size-15px">
+        <div className="block-1 project-block-color-3 white-text c">
+          <div className="block-title bold block-title-proj">
+            2D Ray tracing
+          </div>
+          <div className="block-sub-title bold-subheading size-15px block-sub-title-proj">
             ray casting
           </div>
           <div className="size-15px bold-content">
@@ -94,22 +99,27 @@ function Projects() {
             <span>Css</span>
           </div>
         </div>
-        <div className="block-1 project-block-color-4">
-          <div className="block-title bold">Gender recognition using Voice</div>
-          <div className="block-sub-title bold-subheading size-15px">
+        <div className="block-1 project-block-color-4 d">
+          <div className="block-title bold block-title-proj">
+            Gender recognition using Voice
+          </div>
+          <div className="block-sub-title bold-subheading size-15px block-sub-title-proj">
             VoiceGenix | Software - GUI
           </div>
-          <div className="size-15px bold-content">
+
+          <div className="size-15px bold-content ">
             <span>
               Researched and implemented feature extraction techniques for
               gender classification from voice data, designed an intuitive GUI
               for VoiceGenix, and established a dynamic real-time data
               collection strategy for continuous system adaptation
             </span>
+
             <div className="project-buttons">
               <div className="p1-button bold-content p4-button-color">
                 <a href="#">Source Code</a>
               </div>
+              <img src={voicegenix} alt="voicegenix_logo" />
             </div>
           </div>
           <div className="categories">
@@ -121,36 +131,42 @@ function Projects() {
             <span>Tkinter</span>
           </div>
         </div>
-        <div className="block-1 project-block-color-5">
-          <div className="block-title bold">Instagram Front-end Clone</div>
-          <div className="block-sub-title bold-subheading size-15px last-2-subheading">
-            html | css | figma
+        <div className="block-1 project-block-color-5 e">
+          <div className="block-title bold block-title-proj">
+            Instagram Front-end Clone
           </div>
-          <div className="size-15px">
-            <div className="project-buttons">
-              <div className="p1-button bold-content p5-button-color">
-                <a href="#">View Site</a>
-              </div>
-              <div className="p1-button bold-content p5-button-color">
-                <a href="#">Source Code</a>
+          <div className="last-project">
+            <div className="block-sub-title bold-subheading size-15px last-2-subheading block-sub-title-proj">
+              html | css | figma
+            </div>
+            <div className="size-15px">
+              <div className="project-buttons margin-no-bottom">
+                <div className="p1-button bold-content p5-button-color">
+                  <a href="#">View Site</a>
+                </div>
+                <div className="p1-button bold-content p5-button-color">
+                  <a href="#">Source Code</a>
+                </div>
               </div>
             </div>
           </div>
         </div>
-        <div className="block-1 project-block-color-5">
-          <div className="block-title bold">
+        <div className="block-1 project-block-color-5 f">
+          <div className="block-title bold block-title-proj ">
             System volume control using hand Gestures
           </div>
-          <div className="block-sub-title bold-subheading size-15px last-2-subheading">
-            computer vision | python | gesture recognition
-          </div>
-          <div className="size-15px">
-            <div className="project-buttons">
-              <div className="p1-button bold-content p5-button-color">
-                <a href="#">View Site</a>
-              </div>
-              <div className="p1-button bold-content p5-button-color">
-                <a href="#">Source Code</a>
+          <div className="last-project">
+            <div className="block-sub-title bold-subheading size-15px last-2-subheading block-sub-title-proj">
+              computer vision | python | gesture recognition
+            </div>
+            <div className="size-15px">
+              <div className="project-buttons margin-no-bottom">
+                <div className="p1-button bold-content p5-button-color">
+                  <a href="#">View Site</a>
+                </div>
+                <div className="p1-button bold-content p5-button-color">
+                  <a href="#">Source Code</a>
+                </div>
               </div>
             </div>
           </div>
