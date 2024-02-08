@@ -113,3 +113,8 @@
 .last-2-subheading {
   margin-bottom: 0.9rem;
 }
+
+.p-title {
+  display: flex;
+  justify-content: center;
+}
