@@ -488,7 +488,7 @@ body {
   }
 
   .bold-content img {
-    display: none;
+    /* display: none; */
 
     transform: translateX(200%);
     transform: translatey(-100%);
