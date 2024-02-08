@@ -118,3 +118,7 @@
   display: flex;
   justify-content: center;
 }
+
+.bold-content img {
+  display: none;
+}
