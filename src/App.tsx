@@ -9,6 +9,8 @@ import Certification from "./components/Certification";
 import Competitions from "./components/Competitions";
 import EndGit from "./components/EndGit";
 import Footer from "./components/Footer";
+import Endnote from "./components/Endnote";
+
 import { BrowserRouter as Router } from "react-router-dom";
 
 function App() {
@@ -37,6 +39,7 @@ function App() {
         <EndGit />
         <Footer />
       </div>
+      <Endnote />
     </>
   );
 }
