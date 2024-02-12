@@ -520,6 +520,9 @@ body {
   .achi-sub-content span {
     font-size: 1.1rem !important;
   }
+  .note-text {
+    font-size: 1rem !important;
+  }
 }
 
 /* desktop-end */
