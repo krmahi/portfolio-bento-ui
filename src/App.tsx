@@ -10,6 +10,7 @@ import Competitions from "./components/Competitions";
 import EndGit from "./components/EndGit";
 import Footer from "./components/Footer";
 import Endnote from "./components/Endnote";
+import Education from "./components/Education";
 
 import { BrowserRouter as Router } from "react-router-dom";
 
@@ -34,6 +35,7 @@ function App() {
         </div>
         <Experience />
         <Projects />
+        <Education />
         <Certification />
         <Competitions />
         <EndGit />
