@@ -9,7 +9,6 @@ import Certification from "./components/Certification";
 import Competitions from "./components/Competitions";
 import EndGit from "./components/EndGit";
 import Footer from "./components/Footer";
-import Endnote from "./components/Endnote";
 import Education from "./components/Education";
 
 import { BrowserRouter as Router } from "react-router-dom";
@@ -17,14 +16,12 @@ import { BrowserRouter as Router } from "react-router-dom";
 function App() {
   return (
     <>
-      {/* <div className="wrapper"> */}
       <Router>
         <Header />
         {/* <Routes>
           <Route path=""></Route>
         </Routes> */}
       </Router>
-      {/* </div> */}
       <div className="wrapper">
         <div className="after-header">
           <SkillBento />
@@ -41,7 +38,6 @@ function App() {
         <EndGit />
         <Footer />
       </div>
-      <Endnote />
     </>
   );
 }
