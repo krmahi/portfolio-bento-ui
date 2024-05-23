@@ -1,11 +1,18 @@
 // import React from "react";
+
 import "../styles/About.css";
 
 function About() {
-  const handleresumeclick = () => {
+  const handleClick = () => {
     window.open(
-      "https://drive.google.com/file/d/1pMk7NAJXz2Cg2egCS_EJ8zr5SkwCw0t5/view?usp=sharing"
+      "https://github.com/krmahi/RESUME/blob/master/Mahesh_kumar.pdf"
     );
+  };
+  const handleClick1 = () => {
+    window.scrollTo({
+      top: document.documentElement.scrollHeight,
+      behavior: "smooth",
+    });
   };
 
   return (
@@ -46,11 +53,11 @@ function About() {
         </p>
       </div>
       <div className="about-buttons">
-        <div className="button">
-          <a onClick={handleresumeclick}>Resume</a>
+        <div className="button" onClick={handleClick}>
+          <a>Resume</a>
         </div>
-        <div className="contact-button">
-          <a href="#">Contact me</a>
+        <div className="contact-button" onClick={handleClick1}>
+          <a>Contact me</a>
         </div>
       </div>
       <div className="about-scroll">

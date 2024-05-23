@@ -13,13 +13,13 @@ import infosys from "../assets/infosys-logo.svg";
 function Certification() {
   return (
     <div className="achicerti">
-      <div id="cert-compi-title" className="title">
-        achivements & <br />
-        certifications
-      </div>
       <div className="certi-blocks">
+        <div id="cert-compi-title" className="title certi-title">
+          achivements & <br />
+          certifications
+        </div>
         {/* 1st */}
-        <div className="block-1 orange">
+        <div className="block-1 orange ca">
           <div className="block-title bold-achi-heading ">
             C++ Certification <span> coding ninja</span>
           </div>
@@ -32,7 +32,7 @@ function Certification() {
           </div>
         </div>
         {/* 2nd */}
-        <div className="block-1 yellow">
+        <div className="block-1 yellow cb">
           <div className="block-title bold-achi-heading ">
             DSA in python <span> google</span>
           </div>
@@ -45,7 +45,7 @@ function Certification() {
           </div>
         </div>
         {/* 3rd */}
-        <div className="block-1 green">
+        <div className="block-1 green cc">
           <div className="block-title bold-achi-heading ">
             Problem solving <span> hackerrank</span>
           </div>
@@ -58,7 +58,7 @@ function Certification() {
           </div>
         </div>
         {/* 4th */}
-        <div className="block-1 yellow">
+        <div className="block-1 yellow cl">
           <div className="block-title bold-achi-heading ">
             Javascript <span>hackerrank</span>
           </div>
@@ -71,7 +71,7 @@ function Certification() {
           </div>
         </div>
         {/* 5th */}
-        <div className="block-1 purple cerit-block-span">
+        <div className="block-1 purple cerit-block-span cd">
           <div className="block-title bold-achi-heading ">
             Google developer student club <span>google</span>
           </div>
@@ -84,7 +84,7 @@ function Certification() {
           </div>
         </div>
         {/* 6th */}
-        <div className="block-1 purple cerit-block-span">
+        <div className="block-1 purple cerit-block-span ce">
           <div className="block-title bold-achi-heading ">
             Microsoft learn Student Ambassador
             <span>microsoft</span>
@@ -99,7 +99,7 @@ function Certification() {
         </div>
         {/* 7th */}
 
-        <div className="block-1 grey">
+        <div className="block-1 grey cf">
           <div className="block-title bold-achi-heading ">
             Cloud fundamentals <span> amazon</span>
           </div>
@@ -112,7 +112,7 @@ function Certification() {
           </div>
         </div>
         {/* 8th */}
-        <div className="block-1 grey">
+        <div className="block-1 grey ch">
           <div className="block-title bold-achi-heading ">
             Cloud architechture <span> amazon</span>
           </div>
@@ -125,7 +125,7 @@ function Certification() {
           </div>
         </div>
         {/* 9th */}
-        <div className="block-1 purple cerit-block-span">
+        <div className="block-1 purple cerit-block-span ci">
           <div className="block-title bold-achi-heading ">
             Google cloud badges <span> google cloud</span>
           </div>
@@ -138,7 +138,7 @@ function Certification() {
           </div>
         </div>
         {/* 10th */}
-        <div className="block-1 purple cerit-block-span">
+        <div className="block-1 purple cerit-block-span cj">
           <div className="block-title bold-achi-heading ">
             Google cloud badges <span> google cloud</span>
           </div>
@@ -151,7 +151,7 @@ function Certification() {
           </div>
         </div>
         {/* 11th */}
-        <div className="block-1 orange">
+        <div className="block-1 orange ck">
           <div className="block-title bold-achi-heading ">
             Clearance to 2nd round of Times Spark
             <span> times of india</span>
@@ -165,7 +165,7 @@ function Certification() {
           </div>
         </div>
         {/* 12th */}
-        <div className="block-1 green">
+        <div className="block-1 green cm">
           <div className="block-title bold-achi-heading ">
             Intro to data science <span> infosys</span>
           </div>
@@ -176,6 +176,13 @@ function Certification() {
             </div>
             <img src={infosys} alt="infosys logo" />
           </div>
+        </div>
+        {/* side blocks */}
+        <div className="side-block">
+          <div className="side-block-text">certificates and badges</div>
+        </div>
+        <div className="side-block rotated">
+          <div className="side-block-text">certificates and badges</div>
         </div>
       </div>
     </div>

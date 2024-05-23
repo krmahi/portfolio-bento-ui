@@ -13,8 +13,13 @@
   grid-template-columns: 1fr auto;
 }
 
+#cert-compi-title {
+  margin-bottom: 2rem;
+  justify-self: center;
+}
+
 .bold-achi-heading {
-  font-weight: 600 !important;
+  font-size: 0.9rem;
 }
 
 .block-title > span {
@@ -28,7 +33,7 @@
   grid-template-columns: 0.9fr auto;
 }
 .achi-sub-content {
-  margin-left: 2rem;
+  margin-left: 0.3rem;
   margin-block: 10px;
 }
 
@@ -38,7 +43,7 @@
 }
 
 .achi-sub-content span {
-  font-size: 1rem;
+  font-size: 0.85rem;
   margin: 5px 5px !important;
 }
 
@@ -66,4 +71,20 @@
 
 .blue {
   background-color: #c2deff;
+}
+
+.side-block-text {
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: 0.04em;
+  text-align: center;
+  transform: rotate(-90deg);
+}
+.rotated {
+  transform: rotate(180deg);
+}
+
+.side-block {
+  display: none;
 }

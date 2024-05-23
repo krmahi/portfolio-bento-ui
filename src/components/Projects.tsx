@@ -3,6 +3,39 @@ import "../styles/Projects.css";
 import voicegenix from "../assets/voicegenix.svg";
 
 function Projects() {
+  const handleCodeP1 = () => {
+    window.open("https://github.com/krmahi/AutoNavSenseHD");
+  };
+  const handleViewP2 = () => {
+    window.open("https://krmahi.github.io/portfolio-bento-ui");
+  };
+  const handleCodeP2 = () => {
+    window.open("https://github.com/krmahi/portfolio-bento-ui");
+  };
+  const handleViewP3 = () => {
+    window.open("https://krmahi.github.io/2d_ray_casting");
+  };
+  const handleCodeP3 = () => {
+    window.open("https://github.com/krmahi/2d_ray_casting");
+  };
+  const handleViewP4 = () => {
+    window.open(
+      "https://github.com/krmahi/Gender-recognition-using-voice-GUI/releases"
+    );
+  };
+  const handleCodeP4 = () => {
+    window.open("https://github.com/krmahi/Gender-recognition-using-voice-GUI");
+  };
+  const handleViewP5 = () => {
+    window.open("https://krmahi.github.io/INSTAGRAM_FRONTEND_CLONE");
+  };
+  const handleCodeP5 = () => {
+    window.open("https://github.com/krmahi/INSTAGRAM_FRONTEND_CLONE");
+  };
+  const handleCodeP6 = () => {
+    window.open("https://github.com/krmahi/Volume-control-using-hand-gestures");
+  };
+
   return (
     <div className="project-hero">
       <div className="project-blocks">
@@ -21,6 +54,14 @@ function Projects() {
               developed real-time algorithms for traffic light recognition and
               decision-making planners
             </span>
+            <div className="project-buttons">
+              <div
+                className="p1-button bold-content p1-button-color"
+                onClick={handleCodeP1}
+              >
+                <a>Source Code</a>
+              </div>
+            </div>
           </div>
           <div className="categories">
             <span>Matlab</span>
@@ -45,11 +86,11 @@ function Projects() {
               and organized layout for a modern and scalable web presence
             </span>
             <div className="project-buttons">
-              <div className="p1-button bold-content">
-                <a href="#">View Site</a>
+              <div className="p1-button bold-content" onClick={handleViewP2}>
+                <a>View Site</a>
               </div>
-              <div className="p1-button bold-content">
-                <a href="#">Source Code</a>
+              <div className="p1-button bold-content" onClick={handleCodeP2}>
+                <a>Source Code</a>
               </div>
             </div>
           </div>
@@ -80,15 +121,17 @@ function Projects() {
               from intersections towards light sources for occlusion checks
             </span>
             <div className="project-buttons ">
-              <div className="p1-button bold-content p3-button-color">
-                <a href="#" className="p3-a">
-                  View Site
-                </a>
+              <div
+                className="p1-button bold-content p3-button-color"
+                onClick={handleViewP3}
+              >
+                <a className="p3-a">View Site</a>
               </div>
-              <div className="p1-button bold-content  p3-button-color">
-                <a href="#" className="p3-a">
-                  Source Code
-                </a>
+              <div
+                className="p1-button bold-content  p3-button-color"
+                onClick={handleCodeP3}
+              >
+                <a className="p3-a">Source Code</a>
               </div>
             </div>
           </div>
@@ -116,8 +159,17 @@ function Projects() {
             </span>
 
             <div className="project-buttons">
-              <div className="p1-button bold-content p4-button-color">
-                <a href="#">Source Code</a>
+              <div
+                className="p1-button bold-content p4-button-color"
+                onClick={handleViewP4}
+              >
+                <a>Releases</a>
+              </div>
+              <div
+                className="p1-button bold-content p4-button-color"
+                onClick={handleCodeP4}
+              >
+                <a>Source Code</a>
               </div>
               <img src={voicegenix} alt="voicegenix_logo" />
             </div>
@@ -141,11 +193,17 @@ function Projects() {
             </div>
             <div className="size-15px">
               <div className="project-buttons margin-no-bottom">
-                <div className="p1-button bold-content p5-button-color">
-                  <a href="#">View Site</a>
+                <div
+                  className="p1-button bold-content p5-button-color"
+                  onClick={handleViewP5}
+                >
+                  <a>View Site</a>
                 </div>
-                <div className="p1-button bold-content p5-button-color">
-                  <a href="#">Source Code</a>
+                <div
+                  className="p1-button bold-content p5-button-color"
+                  onClick={handleCodeP5}
+                >
+                  <a>Source Code</a>
                 </div>
               </div>
             </div>
@@ -161,11 +219,11 @@ function Projects() {
             </div>
             <div className="size-15px">
               <div className="project-buttons margin-no-bottom">
-                <div className="p1-button bold-content p5-button-color">
-                  <a href="#">View Site</a>
-                </div>
-                <div className="p1-button bold-content p5-button-color">
-                  <a href="#">Source Code</a>
+                <div
+                  className="p1-button bold-content p5-button-color"
+                  onClick={handleCodeP6}
+                >
+                  <a>Source Code</a>
                 </div>
               </div>
             </div>

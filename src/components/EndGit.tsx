@@ -2,6 +2,10 @@
 import "../styles/EndGit.css";
 
 function EndGit() {
+  const handleClick = () => {
+    window.open("https://github.com/krmahi");
+  };
+
   return (
     <div className="end-div">
       <div className="end">
@@ -14,8 +18,8 @@ function EndGit() {
       <div className="end-content">
         Follow me on github to stay tuned on more projects.
       </div>
-      <div className="contact-button">
-        <a href="#">github</a>
+      <div className="contact-button" onClick={handleClick}>
+        <a>GitHub</a>
       </div>
     </div>
   );

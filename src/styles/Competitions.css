@@ -11,3 +11,7 @@
 .compi-blocks span {
   margin-inline: 0px !important;
 }
+
+.side-parent {
+  display: none;
+}
