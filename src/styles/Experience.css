@@ -62,6 +62,7 @@
   height: 80px;
   border-radius: 15px;
   transition: transform 0.2s ease-in-out;
+  cursor: pointer;
 }
 .work-badges .badge-1:hover {
   transform: translate(0, -3px);

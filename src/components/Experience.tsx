@@ -5,6 +5,19 @@ import socialscript from "../assets/socialscript.svg";
 import devtown from "../assets/devtown.svg";
 
 function Experience() {
+  const handleGoogle = () => {
+    window.open(
+      "https://www.cloudskillsboost.google/public_profiles/f2043e33-b718-400a-9f00-2317e28a0dbd"
+    );
+  };
+  const handleSocial = () => {
+    window.open(
+      "https://certificate.givemycertificate.com/c/43dbaa8a-40bb-42af-bf97-8d90042920be"
+    );
+  };
+  const handleDevtown = () => {
+    window.open("https://www.cert.devtown.in/verify/gxBHL");
+  };
   return (
     <div className="experience-hero">
       <div className="title">Work Experience</div>
@@ -60,19 +73,19 @@ function Experience() {
             </span>
           </div>
         </div>
-        <div className="work-badges ">
-          <a href="#">
-            <div className="badge-1 block-color ">
+        <div className="work-badges">
+          <a>
+            <div className="badge-1 block-color" onClick={handleGoogle}>
               <img src={googlecloud} alt="google cloud" />
             </div>
           </a>
-          <a href="#1">
-            <div className="badge-1 block-color ">
+          <a>
+            <div className="badge-1 block-color " onClick={handleSocial}>
               <img src={socialscript} alt="social script" />
             </div>
           </a>
-          <a href="#2">
-            <div className="badge-1 block-color ">
+          <a>
+            <div className="badge-1 block-color " onClick={handleDevtown}>
               <img src={devtown} alt="devtown" />
             </div>
           </a>

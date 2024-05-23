@@ -2,9 +2,24 @@
 import "../styles/Footer.css";
 
 function footer() {
-  //   const handleEmailClick = () => {
-  //     window.open("mailto:mahesh.kr.2277@gmail.com");
-  //   };
+  const handleClick = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
+  const githubClick = () => {
+    window.open("https://github.com/krmahi");
+  };
+  const linkdlnClick = () => {
+    window.open("https://www.linkedin.com/in/mahikr");
+  };
+  const unstopClick = () => {
+    window.open("https://unstop.com/u/mahi_kr__");
+  };
+
+  const handleEmailClick = () => {
+    window.open("mailto:mahesh.kr.2277@gmail.com");
+  };
+
   return (
     <div className="footer-div">
       <div className="sub-footer-div">
@@ -33,17 +48,19 @@ function footer() {
         <div className="footer-details">
           <div className="details">
             <div className="detail-heading">Contact details</div>
-            <div className="detail-content">
-              <a href="mailto:mahesh.kr.2277@gmail.com">
-                mahesh.kr.2277@gmail.com
-              </a>
+            <div
+              className="detail-content"
+              onClick={handleEmailClick}
+              style={{ cursor: "pointer" }}
+            >
+              <a>mahesh.kr.2277@gmail.com</a>
             </div>
           </div>
           <div className="details-2">
             <div className="detail-heading">my digital spaces</div>
             <div className="detail-content margin">
-              <span>
-                <a href="#" title="github">
+              <span onClick={githubClick} style={{ cursor: "pointer" }}>
+                <a>
                   <svg
                     width="89"
                     height="23"
@@ -62,8 +79,8 @@ function footer() {
                   </svg>
                 </a>
               </span>
-              <span>
-                <a href="#" title="linkdln">
+              <span onClick={linkdlnClick} style={{ cursor: "pointer" }}>
+                <a>
                   <svg
                     width="99"
                     height="23"
@@ -82,8 +99,12 @@ function footer() {
                   </svg>
                 </a>
               </span>
-              <span className="span-left">
-                <a href="#" title="unstop">
+              <span
+                className="span-left"
+                onClick={unstopClick}
+                style={{ cursor: "pointer" }}
+              >
+                <a>
                   <svg
                     width="97"
                     height="22"
@@ -113,8 +134,12 @@ function footer() {
             <br />
             <span>No cookies 🍪Just colors 🎨 and fonts 🔡</span>
           </div>
-          <div className="footer-scroll">
-            <a href="">
+          <div
+            className="footer-scroll"
+            onClick={handleClick}
+            style={{ cursor: "pointer" }}
+          >
+            <a>
               <svg
                 width="108"
                 height="27"

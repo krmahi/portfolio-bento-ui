@@ -68,14 +68,18 @@
   cursor: pointer;
   transition: transform ease 0.2s;
   white-space: nowrap;
-  -webkit-box-shadow: -7px 10px 9px -3px rgba(0, 0, 0, 0.17);
-  -moz-box-shadow: -7px 10px 9px -3px rgba(0, 0, 0, 0.17);
-  box-shadow: -7px 10px 9px -3px rgba(0, 0, 0, 0.17);
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
 }
 
 .p1-button:hover {
   transform: translate(0, -3px);
   transition: transform ease 0.2s;
+}
+
+.p1-button-color {
+  background-color: #e067e8 !important;
 }
 
 .p3-button-color {
@@ -108,6 +112,9 @@
   font-weight: 600;
   border-radius: 1rem;
   margin: 1px 1px !important;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
 }
 
 .last-2-subheading {

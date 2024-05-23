@@ -6,3 +6,17 @@
   font-size: 15px !important;
   font-weight: 300 !important;
 }
+
+.ebold {
+  font-weight: 400;
+}
+
+.upperpadding {
+  padding-block: 15px;
+}
+
+#eblock span {
+  font-weight: 350;
+  margin-left: -9px !important;
+  background-color: transparent !important;
+}
