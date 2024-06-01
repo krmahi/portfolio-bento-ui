@@ -51,7 +51,7 @@ function footer() {
             <div
               className="detail-content"
               onClick={handleEmailClick}
-              style={{ cursor: "pointer" }}
+              style={{ cursor: "none" }}
             >
               <a>mahesh.kr.2277@gmail.com</a>
             </div>
@@ -59,7 +59,7 @@ function footer() {
           <div className="details-2">
             <div className="detail-heading">my digital spaces</div>
             <div className="detail-content margin">
-              <span onClick={githubClick} style={{ cursor: "pointer" }}>
+              <span onClick={githubClick} style={{ cursor: "none" }}>
                 <a>
                   <svg
                     width="89"
@@ -79,7 +79,7 @@ function footer() {
                   </svg>
                 </a>
               </span>
-              <span onClick={linkdlnClick} style={{ cursor: "pointer" }}>
+              <span onClick={linkdlnClick} style={{ cursor: "none" }}>
                 <a>
                   <svg
                     width="99"
@@ -102,7 +102,7 @@ function footer() {
               <span
                 className="span-left"
                 onClick={unstopClick}
-                style={{ cursor: "pointer" }}
+                style={{ cursor: "none" }}
               >
                 <a>
                   <svg
@@ -137,7 +137,7 @@ function footer() {
           <div
             className="footer-scroll"
             onClick={handleClick}
-            style={{ cursor: "pointer" }}
+            style={{ cursor: "none" }}
           >
             <a>
               <svg

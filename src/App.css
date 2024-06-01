@@ -7,6 +7,11 @@
   background-color: #ffbbd37a;
   color: #6b1733;
 }
+/* Scrollbar Styles */
+::-webkit-scrollbar {
+  display: none;
+  width: 8px;
+}
 
 :root {
   font-family: "Poppins", sans-serif;
@@ -22,6 +27,7 @@
   -moz-user-select: none;
   -webkit-user-select: none;
   user-select: none;
+  cursor: none;
 }
 
 .about {
@@ -752,6 +758,10 @@ body {
   .footer-end {
     flex-direction: row !important;
     justify-content: space-between !important;
+  }
+  /* final touches in app.tsx */
+  .endgit {
+    margin-block: 6rem;
   }
 }
 
