@@ -34,6 +34,7 @@
   cursor: pointer;
   transition: transform ease 0.2s;
   white-space: nowrap;
+  cursor: none;
 }
 
 .button:hover {
@@ -51,6 +52,7 @@
   cursor: pointer;
   transition: transform ease 0.2s, box-shadow ease 0.2s;
   white-space: nowrap;
+  cursor: none;
 }
 
 .contact-button:hover {

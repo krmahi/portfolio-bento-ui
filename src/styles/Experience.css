@@ -59,10 +59,10 @@
   justify-content: center;
   padding: 0rem;
   min-width: 109px;
-  height: 80px;
+  height: 100% !important;
   border-radius: 15px;
   transition: transform 0.2s ease-in-out;
-  cursor: pointer;
+  cursor: none;
 }
 .work-badges .badge-1:hover {
   transform: translate(0, -3px);

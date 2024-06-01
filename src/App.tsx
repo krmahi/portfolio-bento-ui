@@ -1,45 +1,17 @@
-import "./App.css";
-import Header from "./components/Header";
-import SkillBento from "./components/SkillBento";
-import About from "./components/About";
-import GradientName from "./components/GradientName";
-import Experience from "./components/Experience";
-import Projects from "./components/Projects";
-import Certification from "./components/Certification";
-import Competitions from "./components/Competitions";
-import EndGit from "./components/EndGit";
-import Footer from "./components/Footer";
-import Education from "./components/Education";
+import { gsap } from "gsap";
+import { useGSAP } from "@gsap/react";
+import { ScrollToPlugin } from "gsap/ScrollToPlugin";
 
-import { BrowserRouter as Router } from "react-router-dom";
+import Home from "./Pages/Home";
+
+gsap.registerPlugin(useGSAP, ScrollToPlugin);
 
 function App() {
-  return (
-    <>
-      <Router>
-        <Header />
-        {/* <Routes>
-          <Route path=""></Route>
-        </Routes> */}
-      </Router>
-      <div className="wrapper">
-        <div className="after-header">
-          <SkillBento />
-          <div className="in-about">
-            <GradientName />
-            <About />
-          </div>
-        </div>
-        <Experience />
-        <Projects />
-        <Education />
-        <Certification />
-        <Competitions />
-        <EndGit />
-        <Footer />
-      </div>
-    </>
-  );
+  useGSAP(() => {
+    gsap.set("body", { autoAlpha: 0 });
+    gsap.to("body", { autoAlpha: 1, duration: 2, ease: "power2" });
+  });
+  return <Home />;
 }
 
 export default App;
