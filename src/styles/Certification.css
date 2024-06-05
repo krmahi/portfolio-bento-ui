@@ -50,27 +50,27 @@
 /* colors */
 
 .orange {
-  background-color: #ffd0c2;
+  background: rgba(255, 208, 194, 0.1);
 }
 
 .yellow {
-  background-color: #fff6de;
+  background: rgba(255, 246, 222, 0.1);
 }
 
 .green {
-  background-color: #e1eff2;
+  background: rgba(225, 239, 242, 0.1);
 }
 
 .purple {
-  background-color: #ffd4fa;
+  background: rgba(255, 213, 250, 0.1);
 }
 
 .grey {
-  background-color: #f2e1ef;
+  background: rgba(242, 225, 239, 0.1);
 }
 
 .blue {
-  background-color: #c2deff;
+  background: rgba(194, 222, 255, 0.1);
 }
 
 .side-block-text {

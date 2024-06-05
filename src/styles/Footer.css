@@ -1,7 +1,7 @@
 .footer-div {
   display: flex;
   flex-wrap: wrap;
-  background-color: #f2e1ef;
+  background: rgba(96, 96, 96, 0.1);
   border-radius: 15px;
 }
 .sub-footer-div {
@@ -52,7 +52,7 @@
   font-size: 13px;
   padding-block-start: 1rem;
   font-weight: 300;
-  border-top: 1px solid #dccada;
+  border-top: 1px solid #505050;
 }
 
 .footer-scroll > a > svg {

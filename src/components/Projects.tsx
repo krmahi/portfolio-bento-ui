@@ -106,7 +106,7 @@ function Projects() {
             <span>Sass / Scss</span>
           </div>
         </div>
-        <div className="block-1 project-block-color-3 white-text c">
+        <div className="block-1 project-block-color-3 c">
           <div className="block-title bold block-title-proj">
             2D Ray tracing
           </div>

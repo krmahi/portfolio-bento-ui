@@ -1,6 +1,5 @@
 .about {
   display: inline-block;
-
   padding-block: 1.5rem;
   line-height: 1.5rem;
   font-size: 13px;
@@ -25,13 +24,12 @@
 }
 
 .button {
+  background: rgba(243, 148, 120, 0.3);
   padding: 1em 3em;
-  background-color: #ffc6b5;
   border-radius: 1rem;
   display: inline-block;
   font-size: 16px;
   z-index: 1;
-  cursor: pointer;
   transition: transform ease 0.2s;
   white-space: nowrap;
   cursor: none;
@@ -44,12 +42,11 @@
 
 .contact-button {
   padding: 1em 3em;
-  background-color: #eb1cd2;
+  background: rgba(235, 28, 210, 0.3);
   border-radius: 1rem;
   display: inline-block;
   font-size: 16px;
   z-index: 1;
-  cursor: pointer;
   transition: transform ease 0.2s, box-shadow ease 0.2s;
   white-space: nowrap;
   cursor: none;
@@ -57,11 +54,11 @@
 
 .contact-button:hover {
   transform: translate(0, -3px);
-  box-shadow: 0 20px 80px -10px #eb1cd2;
+  box-shadow: 0 20px 80px -10px rgba(235, 28, 210, 0.7);
 }
 
 a {
-  color: #21031c;
+  color: #bcbcbc;
   text-decoration: none;
 }
 

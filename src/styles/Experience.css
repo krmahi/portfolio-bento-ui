@@ -5,7 +5,7 @@
 }
 
 .block-color {
-  background-color: #fce2f9;
+  background: rgba(96, 96, 96, 0.1);
 }
 
 .work-blocks {
@@ -70,7 +70,7 @@
 }
 
 .grey-block-color {
-  background-color: #f2e1ef;
+  background: rgba(96, 96, 96, 0.1);
 }
 
 #grey-block {

@@ -4,42 +4,46 @@
 }
 
 ::selection {
-  background-color: #ffbbd37a;
-  color: #6b1733;
+  background-color: #4c66687a;
+  color: #97a6a5;
 }
 /* Scrollbar Styles */
 ::-webkit-scrollbar {
   display: none;
-  width: 8px;
+  /* width: 8px; */
 }
 
 :root {
   font-family: "Poppins", sans-serif;
-  --color-bg: #fdedfb;
-  --color-border: #ecdbea;
-  --color: #21031c;
+  --color-bg: #292929;
+  --color-border: #414141;
+  --color: #bcbcbc;
   --width--mobile: 358px;
   --bold-heading: 800;
   --bold-subheading: 500;
   --bold-content: 400;
   --project-heading: 16px;
   --project-content: 15px;
-  -moz-user-select: none;
-  -webkit-user-select: none;
-  user-select: none;
+  scroll-behavior: smooth;
   cursor: none;
 }
 
-.about {
-  -moz-user-select: text;
-  -webkit-user-select: text;
-  user-select: text;
+img {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
 }
 
-.title {
-  -moz-user-select: text;
-  -webkit-user-select: text;
-  user-select: text;
+.about-buttons {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.contact-button {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
 }
 
 body {
@@ -187,7 +191,7 @@ body {
     flex-direction: row-reverse;
     justify-content: space-between;
     width: 100%;
-    margin-block-start: 11rem;
+    margin-block-start: 8rem;
   }
   .in-about {
     text-align: left;
@@ -378,7 +382,7 @@ body {
     flex-direction: row-reverse;
     justify-content: space-between;
     width: 100%;
-    margin-block-start: 11rem;
+    margin-block-start: 8rem;
   }
   .in-about {
     text-align: left;
@@ -397,8 +401,7 @@ body {
   }
   .about {
     margin-block-start: -1rem !important;
-    font-size: 17px !important;
-    text-align: left !important;
+    font-size: 22px !important;
     line-height: 170% !important;
     font-weight: 400 !important;
   }
@@ -571,19 +574,19 @@ body {
     align-items: center;
   }
   .compi-side-block {
+    background: rgba(252, 226, 249, 0.1);
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     height: 98px;
-    background-color: #fce2f9;
     border-radius: 15px;
   }
   .side-block {
     display: flex !important;
     justify-content: center;
     align-items: center;
-    background-color: #fce2f9;
+    background: rgba(252, 226, 249, 0.1);
     border-radius: 15px;
   }
 
