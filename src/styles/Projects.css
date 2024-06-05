@@ -1,30 +1,26 @@
 .project-block-color-1 {
-  background-color: #eb1cd2;
+  background: rgba(235, 28, 210, 0.1);
 }
 
 .project-block-color-2 {
-  background-color: #f39478;
+  background: rgba(243, 148, 120, 0.1);
 }
 
 .project-block-color-3 {
-  background-color: #21031c;
+  background: rgba(33, 3, 28, 0.1);
 }
 
 .project-block-color-4 {
-  background-color: #f0b657;
+  background: rgba(240, 182, 87, 0.1);
 }
 
 .project-block-color-5 {
-  background-color: #fbdaf7;
+  background: rgba(251, 218, 247, 0.1);
 }
 
-.white-text {
-  color: #fdedfb;
-}
-
-.normal-text {
+/* .normal-text {
   color: #21031c !important;
-}
+} */
 
 .project-blocks {
   display: grid;
@@ -60,7 +56,7 @@
 .p1-button {
   padding: 0.7em 1.5em;
   margin-bottom: 1rem;
-  background-color: #e9ad9c;
+  background: rgba(96, 96, 96, 0.3);
   border-radius: 0.5rem;
   display: inline-block;
   font-size: 12px;
@@ -80,11 +76,11 @@
 }
 
 .p1-button-color {
-  background-color: #e067e8 !important;
+  background: rgba(96, 96, 96, 0.3);
 }
 
 .p3-button-color {
-  background-color: #44063a !important;
+  background: rgba(96, 96, 96, 0.3);
 }
 
 .p3-a {
@@ -92,11 +88,11 @@
 }
 
 .p4-button-color {
-  background-color: #f5cc89 !important;
+  background: rgba(96, 96, 96, 0.3);
 }
 
 .p5-button-color {
-  background-color: #fce2f9 !important;
+  background: rgba(96, 96, 96, 0.3);
 }
 
 .categories {
@@ -107,7 +103,7 @@
 }
 
 .categories span {
-  background-color: #fdedfb;
+  background: rgba(96, 96, 96, 0.3);
   padding: 1px 10px;
   font-size: 11px;
   font-weight: 600;
