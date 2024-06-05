@@ -77,10 +77,14 @@ body {
 /* tablet */
 @media (min-width: 430px) {
   .header {
-    padding: 0.9rem 7% !important;
+    padding: 1rem 7% !important;
   }
   .wrapper {
     width: min(100% - 3rem, 680px);
+  }
+  .time {
+    font-size: 1.3rem !important;
+    margin-right: -2rem;
   }
   .skill-bento {
     width: min(100%, 600px);
@@ -186,6 +190,9 @@ body {
 @media (min-width: 1024px) and (max-width: 1500px) {
   .wrapper {
     width: min(100% - 20rem, 1420px);
+  }
+  .header {
+    margin: auto;
   }
   .after-header {
     flex-direction: row-reverse;
@@ -376,7 +383,8 @@ body {
     width: min(100% - 20rem, 1420px);
   }
   .header {
-    padding: 0.9rem 12.9% !important;
+    margin: auto;
+    padding: 1rem 12.9% !important;
   }
   .after-header {
     flex-direction: row-reverse;
@@ -390,8 +398,6 @@ body {
   .skill-bento {
     width: min(100%, 550px);
     height: 100%;
-
-    margin-block: auto;
     margin-inline-end: -2.5rem;
     padding: 0rem !important;
   }

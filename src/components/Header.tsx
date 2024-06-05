@@ -1,4 +1,5 @@
 import "../styles/Header.css";
+import TimeDisplay from "./TimeDisplay";
 
 function Header() {
   return (
@@ -29,7 +30,9 @@ function Header() {
 
           {/* logo svg */}
         </div>
-        <div className="header-right"></div>
+        <div className="header-right">
+          <TimeDisplay timezone="Asia/calcutta" />
+        </div>
       </div>
     </>
   );

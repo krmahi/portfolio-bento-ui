@@ -5,8 +5,8 @@
   flex-direction: row;
   justify-content: space-between;
   background-color: var(--color-bg);
-  /* width: 100%; */
   border-bottom: var(--color-border) 1px solid;
   z-index: 999;
-  padding: 0.9rem 5%;
+  margin-bottom: 4rem;
+  padding: 1rem 5%;
 }

@@ -1,0 +1,9 @@
+.timedisplay {
+  font-family: "Poppins", sans-serif;
+  color: #bcbcbc;
+}
+
+.time {
+  font-size: 0.9rem;
+  font-weight: 700;
+}

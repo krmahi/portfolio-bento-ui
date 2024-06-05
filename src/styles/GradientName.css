@@ -1,5 +1,6 @@
 .about-name {
   display: inline-block;
+  margin-top: 3rem;
   text-align: center;
   background-image: url("../assets/GradientName.png");
   -webkit-background-clip: text;
