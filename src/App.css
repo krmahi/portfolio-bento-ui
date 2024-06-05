@@ -82,10 +82,6 @@ body {
   .wrapper {
     width: min(100% - 3rem, 680px);
   }
-  .time {
-    font-size: 1.3rem !important;
-    margin-right: -2rem;
-  }
   .skill-bento {
     width: min(100%, 600px);
     height: 100%;
@@ -186,6 +182,12 @@ body {
 
 /* tablet-end */
 
+@media (min-width: 620px) {
+  .time {
+    font-size: 1.3rem !important;
+    margin-right: -2rem;
+  }
+}
 /* laptop */
 @media (min-width: 1024px) and (max-width: 1500px) {
   .wrapper {
