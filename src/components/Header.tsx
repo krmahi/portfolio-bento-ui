@@ -1,18 +1,6 @@
-import React, { useState, useEffect } from "react";
 import "../styles/Header.css";
 
 function Header() {
-  const [isFixed, setIsFixed] = useState(true);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      setIsFixed(window.scrollY <= 100);
-    };
-
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
-
   return (
     <>
       <div className="header">
