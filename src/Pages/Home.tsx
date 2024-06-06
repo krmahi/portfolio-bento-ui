@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { BrowserRouter as Router } from "react-router-dom";
 
 import Header from "../components/Header";
@@ -12,15 +11,11 @@ import Competitions from "../components/Competitions";
 import EndGit from "../components/EndGit";
 import Footer from "../components/Footer";
 import Education from "../components/Education";
-import Cursor from "../components/cursor";
 import "../App.css";
 
 function Home() {
-  const [isHovered, setIsHovered] = useState(false);
-
   return (
     <>
-      <Cursor isHovered={isHovered} />
       <Router>
         <Header />
         {/* <Routes>
@@ -28,7 +23,7 @@ function Home() {
         </Routes> */}
       </Router>
       <div className="wrapper">
-        <div className="after-header" onMouseEnter={() => setIsHovered(false)}>
+        <div className="after-header">
           <SkillBento />
           <div className="in-about">
             <GradientName />
