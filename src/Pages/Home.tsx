@@ -21,6 +21,7 @@ gsap.registerPlugin(useGSAP, ScrollToPlugin);
 
 function Home() {
   const locomotiveScroll = new LocomotiveScroll();
+  locomotiveScroll.start();
 
   useGSAP(() => {
     gsap.set("body", { opacity: 0 });
