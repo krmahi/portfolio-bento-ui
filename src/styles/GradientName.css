@@ -2,7 +2,7 @@
   display: inline-block;
   margin-top: 3rem;
   text-align: center;
-  background-image: url("../assets/GradientName.png");
+  background-image: url("../assets/GradientName.jpg");
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -10,21 +10,21 @@
   font-size: 55px;
   line-height: 104.29%;
   pointer-events: none;
-  background-size: 130% 110%;
+  background-size: 120% 100%;
   background-repeat: repeat;
   background-blend-mode: color-burn;
-  animation: gradient 14s ease infinite;
+  animation: gradient 12s ease infinite reverse;
   /* margin-block: -1.5rem; */
 }
 
 @keyframes gradient {
   0% {
-    background-position: 0% 50%;
+    background-position: 0% 0%;
   }
   50% {
-    background-position: 100% 100%;
+    background-position: 150% 200%;
   }
   100% {
-    background-position: 0% 50%;
+    background-position: 0% 0%;
   }
 }

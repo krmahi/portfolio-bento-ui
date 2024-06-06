@@ -1,4 +1,8 @@
 import { BrowserRouter as Router } from "react-router-dom";
+import LocomotiveScroll from "locomotive-scroll";
+import { gsap } from "gsap";
+import { useGSAP } from "@gsap/react";
+import { ScrollToPlugin } from "gsap/ScrollToPlugin";
 
 import Header from "../components/Header";
 import SkillBento from "../components/SkillBento";
@@ -13,7 +17,16 @@ import Footer from "../components/Footer";
 import Education from "../components/Education";
 import "../App.css";
 
+gsap.registerPlugin(useGSAP, ScrollToPlugin);
+
 function Home() {
+  const locomotiveScroll = new LocomotiveScroll();
+
+  useGSAP(() => {
+    gsap.set("body", { opacity: 0 });
+    gsap.to("body", { opacity: 1, duration: 3, ease: "power2" });
+  });
+
   return (
     <>
       <Router>
