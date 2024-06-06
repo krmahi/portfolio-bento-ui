@@ -43,15 +43,15 @@
 }
 
 .end-h2 {
-  background-image: url("../assets/GradientName.png");
+  background-image: url("../assets/GradientName.jpg");
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
   pointer-events: none;
-  background-size: 130% 110%;
+  background-size: 120% 150%;
   background-repeat: repeat;
   background-blend-mode: color-burn;
-  animation: gradient 14s ease infinite;
+  animation: gradient 14s ease infinite reverse;
 }
 .end {
   display: flex;
