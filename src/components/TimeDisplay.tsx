@@ -8,11 +8,11 @@ interface TimeDisplayProps {
 }
 
 const TimeDisplay = ({ timezone }: TimeDisplayProps) => {
-  const [time, setTime] = useState(moment.tz(timezone).format("HH:mm"));
+  const [time, setTime] = useState(moment.tz(timezone).format("HH:mm:ss"));
 
   useEffect(() => {
     const intervalId = setInterval(() => {
-      setTime(moment.tz(timezone).format("HH:mm"));
+      setTime(moment.tz(timezone).format("HH:mm:ss"));
     }, 1000);
 
     // Clean up the interval on component unmount
