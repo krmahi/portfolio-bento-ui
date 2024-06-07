@@ -382,6 +382,9 @@ body {
 
 /* desktop */
 @media (min-width: 1500px) {
+  .detail-heading {
+    font-size: 18.8px;
+  }
   .wrapper {
     width: min(100% - 20rem, 1420px);
   }
@@ -672,8 +675,8 @@ body {
   }
 
   .size-15px > span {
-    font-size: 23px !important;
-    line-height: 2.3rem;
+    font-size: 19px !important;
+    line-height: 2.2rem;
     font-weight: 430;
   }
 
@@ -762,6 +765,7 @@ body {
   }
   .detail-content {
     font-size: 17px !important;
+    padding-top: 5px;
   }
 
   .details-2 {
@@ -770,6 +774,7 @@ body {
   .footer-end {
     flex-direction: row !important;
     justify-content: space-between !important;
+    font-size: 15px;
   }
   /* final touches in app.tsx */
   .endgit {

@@ -62,8 +62,8 @@ function footer() {
               <span onClick={githubClick} style={{ cursor: "none" }}>
                 <a>
                   <svg
-                    width="89"
-                    height="23"
+                    width="100"
+                    height="30"
                     viewBox="0 0 89 23"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
@@ -82,8 +82,8 @@ function footer() {
               <span onClick={linkdlnClick} style={{ cursor: "none" }}>
                 <a>
                   <svg
-                    width="99"
-                    height="23"
+                    width="100"
+                    height="30"
                     viewBox="0 0 99 23"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
@@ -106,8 +106,8 @@ function footer() {
               >
                 <a>
                   <svg
-                    width="97"
-                    height="22"
+                    width="100"
+                    height="30"
                     viewBox="0 0 97 22"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
