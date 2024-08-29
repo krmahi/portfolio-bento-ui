@@ -18,10 +18,10 @@ function App() {
     }, 3000);
   });
 
-  useGSAP(() => {
-    gsap.set("body", { opacity: 0 });
-    gsap.to("body", { opacity: 1, duration: 1, ease: "power2" });
-  });
+  // useGSAP(() => {
+  //   gsap.set("body", { opacity: 0 });
+  //   gsap.to("body", { opacity: 1, duration: 1, ease: "power2" });
+  // });
 
   return isLoading ? (
     <Loader />

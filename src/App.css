@@ -24,7 +24,6 @@
   --bold-content: 400;
   --project-heading: 16px;
   --project-content: 15px;
-  scroll-behavior: smooth;
   cursor: none;
   overflow: scroll;
 }
