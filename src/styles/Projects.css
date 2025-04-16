@@ -1,5 +1,5 @@
 .project-block-color-1 {
-  background: rgba(235, 28, 210, 0.1);
+  background: rgba(147, 19, 89, 0.1);
 }
 
 .project-block-color-2 {
@@ -13,9 +13,17 @@
 .project-block-color-4 {
   background: rgba(240, 182, 87, 0.1);
 }
-
 .project-block-color-5 {
-  background: rgba(251, 218, 247, 0.1);
+  background: rgba(62, 158, 158, 0.1);
+}
+.project-block-color-6 {
+  background: rgba(125, 32, 63, 0.1);
+}
+.project-block-color-7 {
+  background: rgba(139, 197, 97, 0.1);
+}
+.project-block-color-8 {
+  background: rgba(16, 127, 121, 0.1);
 }
 
 /* .normal-text {
