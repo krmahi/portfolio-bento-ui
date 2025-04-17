@@ -287,10 +287,10 @@ function Projects() {
 
         <div className="block-1 project-block-color-7 g">
           <div className="block-title bold block-title-proj">
-            System volume control using hand Gestures
+            Volume control using hand Gestures
           </div>
           <div className="block-sub-title bold-subheading size-15px block-sub-title-proj">
-            volume control
+            volume control via Gesture
           </div>
           <div className="size-15px bold-content ">
             <span>
@@ -317,6 +317,7 @@ function Projects() {
           </div>
           <div className="categories">
             <span>OpenCV</span>
+            <span>MediaPipe</span>
             <span>Gesture Recognition</span>
             <span>Pyton</span>
             <span>Research & Development</span>
