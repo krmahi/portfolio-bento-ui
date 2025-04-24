@@ -19,7 +19,7 @@ function About() {
       <div className="about">
         <p>
           Versatile and reliable team player, exuding positivity in task
-          management. Ready to take on extra responsibilities for team success.
+          management. Ready to take on extra responsibilities for team success
         </p>
       </div>
       <div className="about-roles">
@@ -36,7 +36,7 @@ function About() {
               <circle cx="2" cy="2" r="2" fill="#BCBCBC" />
             </svg>
           </span>
-          <span>Frontend Developer</span>
+          <span>Full-Stack Developer</span>
           <span>
             <svg
               width="4"

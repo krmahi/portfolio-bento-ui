@@ -11,9 +11,9 @@ function Projects() {
   const handleCodeP2 = () => {
     window.open("https://github.com/krmahi/portfolio-bento-ui");
   };
-  // const handleViewP3 = () => {
-  //   window.open("");
-  // };
+  const handleViewP3 = () => {
+    window.open("https://drawing-calc.vercel.app");
+  };
   const handleCodeP3 = () => {
     window.open(
       "https://github.com/krmahi/AI-powered-practical-situation-solver"
@@ -138,7 +138,7 @@ function Projects() {
             <div className="project-buttons ">
               <div
                 className="p1-button bold-content p3-button-color"
-                // onClick={handleViewP3}
+                onClick={handleViewP3}
               >
                 <a className="p3-a">View Site</a>
               </div>
@@ -152,11 +152,17 @@ function Projects() {
           </div>
           <div className="categories normal-text">
             <span>NLP</span>
+            <span>CNN</span>
+            <span>TypeScript</span>
+            <span>MathJax</span>
+            <span>Axios</span>
+            <span>Uvicorn</span>
             <span>AI/ML</span>
-            <span>Real-Time Data Processing</span>
-            <span>css</span>
+            <span>TailwindCSS</span>
             <span>UI/UX Design</span>
             <span>Api</span>
+            <span>LLM integration</span>
+            <span>Real-Time Data Processing</span>
           </div>
         </div>
 
