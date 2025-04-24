@@ -12,7 +12,7 @@ function Education() {
           </div>
           <div className="block-sub-title">Computer Science</div>
           <div className="block-sub-title edu-sub-title">
-            Delhi NCR, INDIA | 8.26 cgpa
+            Delhi NCR, INDIA | 8.3 cgpa
           </div>
           <div id="eblock" className="block-sub-title ebold upperpadding">
             Course curriculum
@@ -58,7 +58,7 @@ function Education() {
           </div>
           <div className="block-sub-title">Hign School</div>
           <div className="block-sub-title edu-sub-title">
-            Prayagraj, INDIA | 88%
+            Prayagraj, INDIA | 87%
           </div>
           <div className="block-sub-title ebold upperpadding">
             Course curriculum
